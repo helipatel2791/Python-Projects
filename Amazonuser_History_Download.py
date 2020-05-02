@@ -1,3 +1,14 @@
+'''
+This is a script to fetch amazon user's purchase history and load it as CSV file. Automated the process of
+1) Start chrome
+2) Go to Amazon Website
+3) Log In to User account with username and password
+4) Go to History Page 
+5) Fetch data i.e. Product name, Purchase date, Price, Tax, Shipping Charge, Total Amount and write it as CSV file 
+6) Download Invoices
+'''
+
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 # from selenium.webdriver.common.keys import Keys
